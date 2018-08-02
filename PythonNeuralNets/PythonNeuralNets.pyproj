@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>374978a7-a9cd-4138-8686-ac639382969d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tutorial1\tutorial.py</StartupFile>
+    <StartupFile>Tutorial2\TutorialTestingTraining.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Tutorial1\tutorial.py" />
+    <Compile Include="Tutorial2\tutorial.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tutorial2\TutorialTestingTraining.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tutorial2\TutorialTestingNumericalGradientChecking.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Framework\" />
+    <Folder Include="Tutorial2\" />
     <Folder Include="Tutorial1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
